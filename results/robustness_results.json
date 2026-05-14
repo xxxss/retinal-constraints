@@ -1,0 +1,47 @@
+{
+  "baseline": {
+    "mode": "baseline",
+    "clean_acc": 0.0,
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "shot_noise": 0.0,
+      "impulse_noise": 0.0,
+      "gaussian_blur": 0.0,
+      "brightness": 0.0,
+      "contrast": 0.005,
+      "fog": 0.0,
+      "jpeg": 0.0,
+      "mean": 0.000625
+    }
+  },
+  "fixed_dog": {
+    "mode": "fixed_dog",
+    "clean_acc": 0.0,
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "shot_noise": 0.0,
+      "impulse_noise": 0.0,
+      "gaussian_blur": 0.0,
+      "brightness": 0.0,
+      "contrast": 0.0,
+      "fog": 0.0,
+      "jpeg": 0.0,
+      "mean": 0.0
+    }
+  },
+  "learned_dog": {
+    "mode": "learned_dog",
+    "clean_acc": 0.0,
+    "corruptions": {
+      "gaussian_noise": 0.0,
+      "shot_noise": 0.0,
+      "impulse_noise": 0.0,
+      "gaussian_blur": 0.0,
+      "brightness": 0.0,
+      "contrast": 0.0,
+      "fog": 0.0,
+      "jpeg": 0.0,
+      "mean": 0.0
+    }
+  }
+}
