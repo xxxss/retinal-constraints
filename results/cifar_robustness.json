@@ -1,0 +1,47 @@
+{
+  "baseline": {
+    "clean": 0.8355,
+    "train_time": 140.88785457611084,
+    "corruptions": {
+      "gaussian_noise": 0.7768,
+      "shot_noise": 0.799,
+      "impulse_noise": 0.3467,
+      "gaussian_blur": 0.6288,
+      "brightness": 0.8037,
+      "contrast": 0.5392,
+      "fog": 0.6311,
+      "jpeg": 0.781,
+      "mean": 0.6632875
+    }
+  },
+  "fixed_dog": {
+    "clean": 0.8401,
+    "train_time": 137.05905437469482,
+    "corruptions": {
+      "gaussian_noise": 0.7315,
+      "shot_noise": 0.7659,
+      "impulse_noise": 0.4611,
+      "gaussian_blur": 0.704,
+      "brightness": 0.809,
+      "contrast": 0.5639,
+      "fog": 0.674,
+      "jpeg": 0.7349,
+      "mean": 0.6805375
+    }
+  },
+  "learned_dog": {
+    "clean": 0.8439,
+    "train_time": 155.86922955513,
+    "corruptions": {
+      "gaussian_noise": 0.6532,
+      "shot_noise": 0.7094,
+      "impulse_noise": 0.357,
+      "gaussian_blur": 0.6603,
+      "brightness": 0.8227,
+      "contrast": 0.5877,
+      "fog": 0.6907,
+      "jpeg": 0.6571,
+      "mean": 0.6422625
+    }
+  }
+}

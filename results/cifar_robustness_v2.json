@@ -1,0 +1,62 @@
+{
+  "baseline": {
+    "clean": 0.8375,
+    "train_time": 135.47462034225464,
+    "corruptions": {
+      "gaussian_noise": 0.7846,
+      "shot_noise": 0.8105,
+      "impulse_noise": 0.3755,
+      "gaussian_blur": 0.6301,
+      "brightness": 0.8065,
+      "contrast": 0.545,
+      "fog": 0.6461,
+      "jpeg": 0.7884,
+      "mean": 0.6733374999999999
+    }
+  },
+  "fixed_dog": {
+    "clean": 0.8407,
+    "train_time": 137.58721947669983,
+    "corruptions": {
+      "gaussian_noise": 0.7091,
+      "shot_noise": 0.7553,
+      "impulse_noise": 0.4813,
+      "gaussian_blur": 0.6892,
+      "brightness": 0.8186,
+      "contrast": 0.5676,
+      "fog": 0.6733,
+      "jpeg": 0.7117,
+      "mean": 0.6757625
+    }
+  },
+  "learned_dog": {
+    "clean": 0.8484,
+    "train_time": 154.08841156959534,
+    "corruptions": {
+      "gaussian_noise": 0.6628,
+      "shot_noise": 0.7229,
+      "impulse_noise": 0.2999,
+      "gaussian_blur": 0.6143,
+      "brightness": 0.832,
+      "contrast": 0.5992,
+      "fog": 0.7145,
+      "jpeg": 0.6656,
+      "mean": 0.6389
+    }
+  },
+  "adaptive_dog": {
+    "clean": 0.8383,
+    "train_time": 148.42748641967773,
+    "corruptions": {
+      "gaussian_noise": 0.7626,
+      "shot_noise": 0.79,
+      "impulse_noise": 0.4336,
+      "gaussian_blur": 0.7334,
+      "brightness": 0.8256,
+      "contrast": 0.6601,
+      "fog": 0.7334,
+      "jpeg": 0.7624,
+      "mean": 0.7126375
+    }
+  }
+}
