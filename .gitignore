@@ -15,4 +15,7 @@ results/*.pt
 results/*.png
 *.tar
 *.tgz
+yolov8n.pt
+test_image.jpg
+screenshot_*.png
 .DS_Store
